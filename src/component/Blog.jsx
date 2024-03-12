@@ -7,14 +7,14 @@ import blog2 from "../component/assets/blog-3.jpg"
 export const Blog = () => {
     return (
         <div>
-            <div className='blog-heading'>
+            <div className='blog-heading' >
                 <p>My Blogs</p>
                 <h2>Latest News</h2>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis nihil nam iste, qui corrupti saepe voluptatem vitae cumque facilis provident doloremque, dignissimos atque.</p>
             </div>
 
             <div className="blog-work">
-                <div className="blogs" id='blogs'>
+                <div className="blogs" >
                     <img src={blog} alt="Error" />
                     <h3>Design For Everyone</h3>
                     <p>Posted By: Admin

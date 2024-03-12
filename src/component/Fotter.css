@@ -35,6 +35,11 @@ display: flex;
     text-decoration: none;
 }
 
+.socials:hover{
+    background: #ff7a57;
+    color: white;
+}
+
 .footer-righttop{
     display: flex;
     justify-content: center;

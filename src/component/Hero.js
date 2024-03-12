@@ -15,10 +15,10 @@ export const Hero = () => {
                         <button>Download CV</button>
                     </div>
                     <div className="hero-socialmedia">
-                        <div className="hero-icons"><i className='hero-socialitem'>FB</i></div>
-                        <div className="hero-icons"><i className='hero-socialitem'>g+</i></div>
-                        <div className="hero-icons"><i className='hero-socialitem'>gh</i></div>
-                        <div className="hero-icons"><i className='hero-socialitem'>t</i></div>
+                        <a href='#blogs' className="hero-icons"><i className='hero-socialitem'>FB</i></a>
+                        <a href='#blogs' className="hero-icons"><i className='hero-socialitem'>g+</i></a>
+                        <a href='#blogs' className="hero-icons"><i className='hero-socialitem'>gh</i></a>
+                        <a href='#blogs' className="hero-icons"><i className='hero-socialitem'>t</i></a>
                     </div>
                 </div>
                 <div className='hero-right'>
@@ -28,7 +28,7 @@ export const Hero = () => {
             <div className="herobottom-container">
                 
                 <div className="herobottomcontainer">
-                    <div className="hero-bottom">
+                    <div className="hero-bottom" id='blogs'>
                         <div>
                             <h2>124</h2>
                             <p>Happy Clients</p>
@@ -39,7 +39,7 @@ export const Hero = () => {
                         </div>
                         <div>
                             <h2 className='text-blue'>789</h2>
-                            <p>Awards Won</p>
+                            <p >Awards Won</p>
                         </div>
                     </div>
                 </div>

@@ -13,10 +13,10 @@ export const Fotter = () => {
                 </div>
                 <div className="footer-righttop">
                     <div className="footer-right">
-                        <div className="socials">fb</div>
-                        <div className="socials">gh</div>
-                        <div className="socials">g+</div>
-                        <div className="socials">t</div>
+                        <a href="#blogs" className='socials'>fb</a>
+                        <a href="#blogs" className='socials'>gh</a>
+                        <a href="#blogs" className='socials'>g+</a>
+                        <a href="#blogs" className='socials'>t</a>
                     </div>
                 </div>
             </div>
