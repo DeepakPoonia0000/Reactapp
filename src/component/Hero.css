@@ -1,0 +1,127 @@
+.hero-container {
+    margin-top: 95px;
+}
+
+.username0 {
+    font-size: 30px;
+    font-weight: 600;
+    color: grey;
+}
+
+.username {
+    font-size: 50px;
+    font-weight: 600;
+    color: rgb(50, 49, 49);
+}
+
+.username1 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.hero-one {
+    margin: 0px 11vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-left {
+    margin-top: 100px;
+    line-height: 20px;
+    @media (max-width:620px) {
+        line-height: 50px;
+    }
+}
+
+.hero-button {
+    display: flex;
+    gap: 20px;
+}
+
+.hero-button button {
+    border: 2px solid #ff7a57;
+    background-color: #ff7a57;
+    
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px;
+    height: 60px;
+    padding: 0px 10px;
+    border-radius: 50px;
+}
+
+.hero-socialmedia{
+    margin-top: 40px;
+    display: flex;
+    gap: 10px;
+}
+
+.hero-icons{
+    display: block;
+    margin: 0 5px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #ff7a57;
+    color: #ff7a57;
+    text-align: center;
+    line-height: 40px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    text-decoration: none;
+}
+
+.hero-icons:hover{
+    background: #ff7a57;
+    color: white;
+}
+
+.hero-socialitem{
+    font-family: 'themify';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+
+.hero-right img {
+    max-width: 620px;
+    @media (max-width:970px) {
+        display: none;
+    }
+}
+
+.herobottom-container {
+    display: flex;
+    justify-content: center;
+}
+
+.herobottomcontainer {
+    border: 2px solid black;
+    border-radius: 50px;
+    
+    position: relative;
+    top: -48px;
+    background: white;
+    @media (max-width:970px) {
+        top: 0px;
+        margin: 20px;
+    }
+}
+
+.hero-bottom {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    text-align: center;
+    line-height: 8px;
+    margin: 0px 80px;
+    @media (max-width:640px) {
+        line-height: 30px;
+    }
+
+}
