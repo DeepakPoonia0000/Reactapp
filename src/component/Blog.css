@@ -42,3 +42,44 @@
     margin-bottom: 12px;
     letter-spacing: .6px;
 }
+
+.hireme-top{
+    display: flex;
+    justify-content: center;
+    margin: 15% 0px;
+}
+
+.hireme{
+    border: 0.5px solid black;
+    margin: 20px 0px;
+    border-radius: 25px;
+    padding-left: 10px;
+    background: #ff7a57;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+}
+
+.hireme-left{
+width: 80%;
+color: white;
+}
+
+.hireme-right{
+width: 20%;
+margin-top: 40px;
+}
+
+.hireme-right button{
+    width: 90px;
+    height: 40px;
+    border-radius: 20px;
+    background: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.hireme-right button:hover{
+    background: black;
+    color: white;
+}
