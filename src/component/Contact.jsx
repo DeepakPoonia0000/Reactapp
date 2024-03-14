@@ -4,6 +4,8 @@ import './Contact.css'
 export const Contact = () => {
     return (
         <div>
+            <div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6972.192113857675!2d75.80973029120499!3d29.10284537597604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391236a3977ec709%3A0xcb3d379cc61a2bc5!2sBadi%20Satrod%2C%20Haryana%20125006!5e0!3m2!1sen!2sin!4v1710237763335!5m2!1sen!2sin" ></iframe></div>
             <div className="contact-headingtop">
                 <div className="contact-heading">
                     <h6>Contact</h6>
@@ -47,10 +49,10 @@ export const Contact = () => {
             </div>
 
 
-            
-            <div className="map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6972.192113857675!2d75.80973029120499!3d29.10284537597604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391236a3977ec709%3A0xcb3d379cc61a2bc5!2sBadi%20Satrod%2C%20Haryana%20125006!5e0!3m2!1sen!2sin!4v1710237763335!5m2!1sen!2sin" ></iframe>
-            </div>
+
+
+
         </div>
+
     )
 }

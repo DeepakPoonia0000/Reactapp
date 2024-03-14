@@ -1,48 +1,42 @@
-// import React from 'react';
-
-// function Navbar() {
-//   return (
-//     <nav>
-//       <h2>j</h2>
-//     </nav>
-//   );
-// }
-
-// export default Navbar;
+import React, { useState } from 'react';
+import hamburger from './assets/Hamburger.jpg';
+import Logo from './assets/Logoo.jpg';
+import './Navbar.css';
 
 
+const Navbar = () => {
+    const [show, setShow] = useState(false);
 
-import React from 'react';
-import Navbarr from './Navbarr.css';
-import Logoo from "../component/assets/Logoo.jpg"
-import Hamburger from "../component/assets/Hamburger.jpg"
+    const handleChange = () => {
+        setShow(!show);
+    };
 
+    return (
+        <div>
+            <div className={`${ show ? "nav-dropdown" : "nav-nodropdown"}`}>
+                <div className="navbar-top">
+                    <img src={Logo} alt="" className='imag' />
+                    <img
+                        src={hamburger}
+                        alt=""
+                        className="h-icon"
+                        onClick={handleChange}
+                    />
+                    
 
-export const Navbar = () => {
-  return (
-    
-    <div className='nav-container ' id='Home'>
-      <div className='nav-logo'>
-        <img src={Logoo} alt='Error'></img>
-      </div>
-      <div className='nav-pagelinks'>
-        <ul className='nav-linkslist'>
-      <li><a href='#Home' className=' text-info '>Home</a></li>
-      <li><a href='#About'>About</a></li>
-      <li><a href='#Services'>Service</a></li>
-      <li><a href='#Portfolio'>Portfolio</a></li>
-      <li><a href='#Testmonial'>Testmonial</a></li>
-      <li><a href='#Blog'>Blog</a></li>
-      <li><a href='#Contact'>Contact</a></li>
-      </ul>
-      <div className='icon'>
-      <img src={Hamburger}  ></img>
-      </div>
-      </div>
-      
-    </div>
-    
-  )
-}
+                </div>
+                <ul className={` nav-items`}>
+                        <li className='clr-orange'>Home</li>
+                        <li>About</li>
+                        <li>Services</li>
+                        <li>Portfolio</li>
+                        <li>Testmonial</li>
+                        <li>Blog</li>
+                        <li>contact</li>
+                    </ul>
+            </div>
+        </div>
+    );
+};
 
-
+export default Navbar;
