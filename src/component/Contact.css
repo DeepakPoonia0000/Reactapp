@@ -1,3 +1,7 @@
+.contact-margin{
+    /* margin-bottom: 400px; */
+}
+
 .contact-headingtop {
     display: flex;
     justify-content: center;
@@ -76,8 +80,9 @@
 }
 
 iframe {
-    position: relativel;
+    position: sticky;
     bottom: 0px;
     width: 99.8%;
     height: 500px;
+    z-index: -4;
 }
