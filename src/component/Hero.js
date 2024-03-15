@@ -15,12 +15,13 @@ export const Hero = () => {
                         <button>Download CV</button>
                     </div>
                     <div className="hero-socialmedia">
-                        <a href='#blogs' className="hero-icons"><i className='hero-socialitem'>FB</i></a>
-                        <a href='#blogs' className="hero-icons"><i className='hero-socialitem'>g+</i></a>
-                        <a href='#blogs' className="hero-icons"><i className='hero-socialitem'>gh</i></a>
-                        <a href='#blogs' className="hero-icons"><i className='hero-socialitem'>t</i></a>
+                        <a href='https://www.facebook.com/' className="hero-icons" target='_blank'><i className='hero-socialitem'>FB</i></a>
+                        <a href='https://github.com/DeepakPoonia0000/' target='_blank' className="hero-icons"><i className='hero-socialitem'>g+</i></a>
+                        <a href='https://github.com/DeepakPoonia0000/' className="hero-icons" target='_blank'><i className='hero-socialitem'>gh</i></a>
+                        <a href='https://twitter.com/?lang=en-in' className="hero-icons" target='_blank'><i className='hero-socialitem'>t</i></a>
                     </div>
                 </div>
+                
                 <div className='hero-right'>
                     <img src={man} alt="Error" />
                 </div>

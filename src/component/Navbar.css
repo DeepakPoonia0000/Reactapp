@@ -54,6 +54,11 @@
     }
 }
 
+.nav-items a{
+    text-decoration: none;
+    color: black;
+}
+
 .h-icon{
     display: none;
     @media(max-width:900px) {

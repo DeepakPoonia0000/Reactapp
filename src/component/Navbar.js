@@ -26,14 +26,26 @@ const Navbar = () => {
 
                 </div>
                 <ul className={` nav-items`}>
-                        <li className='clr-orange'>Home</li>
-                        <li>About</li>
-                        <li>Services</li>
-                        <li>Portfolio</li>
-                        <li>Testmonial</li>
-                        <li>Blog</li>
-                        <li>contact</li>
-                    </ul>
+                        <a href=""><li className='clr-orange'>Home</li></a>
+                        <a href="#about">
+                            <li>About</li>
+                        </a>
+                        <a href="#services">
+                            <li>Services</li>
+                        </a>
+                        <a href="#portfolio">
+                            <li>Portfolio</li>
+                        </a>
+                        <a href="#testmonial">
+                            <li>Testmonial</li>
+                        </a>
+                        <a href="#blog">
+                            <li>Blog</li>
+                        </a>
+                        <a href="#contact">
+                            <li>contact</li>
+                    </a>
+                        </ul>
             </div>
         </div>
     );

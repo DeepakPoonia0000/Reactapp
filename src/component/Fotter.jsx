@@ -13,10 +13,10 @@ export const Fotter = () => {
                 </div>
                 <div className="footer-righttop">
                     <div className="footer-right">
-                        <a href="#blogs" className='socials'>fb</a>
-                        <a href="#blogs" className='socials'>gh</a>
-                        <a href="#blogs" className='socials'>g+</a>
-                        <a href="#blogs" className='socials'>t</a>
+                        <a href='https://www.facebook.com/'  target='_blank' className='socials'>fb</a>
+                        <a href="https://github.com/DeepakPoonia0000/" target='_blank'  className='socials'>gh</a>
+                        <a href="https://github.com/DeepakPoonia0000/"  target='_blank' className='socials'>g+</a>
+                        <a href="https://twitter.com/?lang=en-in"  target='_blank' className='socials'>t</a>
                     </div>
                 </div>
             </div>
